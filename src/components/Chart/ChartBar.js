@@ -14,7 +14,10 @@ const ChartBar = (props) => {
 			<div className="chart-bar__inner">
 				<div
 					className="chart-bar__fill"
-					style={{ height: barFillHeight }}
+					style={{
+						height: barFillHeight,
+						'background-color': 'red',
+					}}
 				></div>
 			</div>
 			<div className="chart-bar__label">{props.label}</div>
